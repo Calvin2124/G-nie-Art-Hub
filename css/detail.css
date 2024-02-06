@@ -114,6 +114,7 @@ header > nav > ul > li:nth-child(4) > a:hover{
     display: block;
 }
 
+
 /* FOOTER */
 
 footer{
@@ -134,126 +135,39 @@ footer a{
 
 /* MAIN */
 
-/* SECTION NUMÉRO 1 */
+/* SECTION 1 */
 
-#section-1{
-    padding: 20px;
-    margin-bottom: 35px;
+#section-1 a{
+    color: var(--second-color);
 }
 
 h1{
-    font-family: var(--font-code-pro);
-    font-size: 96px;
-    font-weight: 900;
-    text-align: center;
-    transform: rotate(-6.16deg);
-    padding: 60px;
-}
-
-/* SECTION NUMÉRO 2 */
-
-#section-2{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    margin-bottom: 70px;
-    max-width: 1440px;
-    margin: 50px auto;
-}
-
-#section-2 img{
-    width: 100%;
-}
-
-#section-2 h2{
     font-family: var(--font-rum-raisin);
     font-size: 36px;
     font-weight: 400;
     line-height: 46px;
-    margin-bottom: 10px;
+    text-align: center; 
+    background-color: rgba(255, 255, 255, 1);
+    padding: 30px 45px;
+    box-shadow: 0px -9px 4px 3px rgba(0, 0, 0, 0.25);
 }
 
-#section-2 > article > div > p:nth-child(2){
-    font-family: var(--font-code-pro);
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25px;   
-    margin-bottom: 10px;
-}
-
-#section-2 > article > div > p:nth-child(3){
-    font-family: var(--font-code-pro);
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 30px;    
-    margin-bottom: 10px;
-}
-
-.shadow{
-    box-shadow: 3px 7px 14px 1px #000;
-    padding: 10px;
-    position: relative;
-}
-
-.position{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    font-size: 20px;
-}
-
-#section-2 > article > figure > figcaption > p:nth-child(2){
-    margin-bottom: 10px;
-}
-
-#section-2 > article > figure > figcaption > p:nth-child(3){
-    margin-bottom: 10px;
-}
-
-/* SECTION 3 */
-
-#section-3{
-    max-width: 1440px;
-    text-align: center;
-    margin: auto;
-    padding-bottom: 60px;
-}
-
-#section-3 a{
-    font-size: 32px;
-    font-weight: 900;
-}
-
-/* DESSUS HEADER */
-
-#dessus-header{
-    background-color: #000;
-    
-}
-
-#background-img{
-    background-image: url(/img/Images-art.png);
-    height: 750px;
+.img-bgc{
+    background-image: url(/img/01\ \(1\).png);
+    height: 800px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position-y: 50%;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
-    text-align: center;
-}
-
-#background-img h2{
-    color: #fff;
-    font-family: var(--font-code-pro);
-    font-size: 96px;
-    font-weight: 900;
-    line-height: 121px;
     margin-bottom: 40px;
 }
 
-#dessus-header img{
-    position: relative;
-    left: 85px;
-    margin: 20px;
+#section-1 p{
+    margin-bottom: 20px;
+    font-family: var(--font-code-pro);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
 }
-
